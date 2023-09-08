@@ -125,5 +125,24 @@ body {
 .navigation-search-btn:focus {
   outline: none;
 }
+
+.navigation-list {
+  list-style: none;
+  padding: 0;
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation-link {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 /* end of navigation */
 /* end of navbar */
